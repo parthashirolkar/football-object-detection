@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node modules
+node_modules/
+
+# YOLO and ultralytics related files
+runs/
+models/
+results/
+labels/
+weights/
+*.pt
+
+# Data files
+*.csv
+*.tfrecord
+*.record
+*.xml
+*.json
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE / Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+.env
+.venv
+ENV/
+env/
+venv/
+
+# Python-specific files
+*.pyd
+*.pyo
+*.pyd
+
+# Temporary files and directories
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Compiled files
+*.out
+*.o
+*.class
+
+# Ultralyics YOLO related
+runs/
+weights/
+results/
+
+# Documentation
+*.docx
+*.pdf
+*.md
+
+# Ignore dataset files
+data/
+datasets/
+.ipynb_checkpoints/
+input_videos/
+output_videos/
+training/football-players-detection-1/
