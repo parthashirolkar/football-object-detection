@@ -89,7 +89,8 @@ results/
 # Ignore dataset files
 data/
 datasets/
-.ipynb_checkpoints/
+.ipynb_checkpoints
 input_videos/
 output_videos/
 training/football-players-detection-1/
+stubs/

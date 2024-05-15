@@ -19,6 +19,6 @@ def save_video(output_video_frames: List, output_video_path: str):
     forucc = cv2.VideoWriter_fourcc(*"XVID")
     out = cv2.VideoWriter(output_video_path, forucc, 24, (output_video_frames[0].shape[1], output_video_frames[0].shape[0]))
 
-    for frame in tqdm(output_video_frames, desc="Writing frames.."):
+    for frame in tqdm(output_video_frames, desc="Writing frames to output video.."):
         out.write(frame)
     out.release()
